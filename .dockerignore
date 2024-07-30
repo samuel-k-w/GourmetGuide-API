@@ -1,0 +1,41 @@
+# Ignore Python bytecode and cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.gitignore
+.git
+.docker
+# Ignore Django migrations
+**/migrations
+
+# Ignore virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# Ignore development and local settings
+local_settings.py
+*.log
+
+# Ignore media and static files
+media/
+static/
+
+# Ignore test and temporary files
+tests/
+.coverage
+coverage.xml
+*.cover
+*.sql
+*.sqlite3
+*.sqlite
+
+# Ignore distribution and packaging
+*.egg-info/
+dist/
+build/
+
+# Ignore configuration files that may contain sensitive information
+*.env
