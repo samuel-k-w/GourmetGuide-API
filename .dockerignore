@@ -28,9 +28,9 @@ tests/
 .coverage
 coverage.xml
 *.cover
-*.sql
-*.sqlite3
-*.sqlite
+#*.sql
+#*.sqlite3
+#*.sqlite
 
 # Ignore distribution and packaging
 *.egg-info/
